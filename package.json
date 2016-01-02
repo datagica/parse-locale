@@ -13,6 +13,9 @@
     "type" : "git",
     "url" : "https://github.com/datagica/parse-locale.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-runtime": "6.0.14"
   },
