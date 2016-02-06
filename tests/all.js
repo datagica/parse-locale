@@ -2,7 +2,7 @@ const chai = require('chai');
 chai.use(require('chai-fuzzy'));
 const expect = chai.expect;
 
-import { ParseLocale } from '../../lib/parse-locale';
+const ParseLocale = require("../lib/parse-locale").ParseLocale;
 
 describe('@datagica/parse-locale', () => {
 
